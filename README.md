@@ -36,8 +36,8 @@ $ docker pull parthkh28/churn_prediction
 ### Run the Container
 Create a container from the image.
 ```
-$ docker run --name container  -d -p 8000:8000 churn_prediction
+$ docker run --name container  -d -p 5000:5000 churn_prediction
 ```
 In the above example, we are running a docker container with the name my-container in detached mode and mapping port 8000 of the host to port 8000 of the container. The image we are using is news_classification.
 
-Now visit http://localhost:8000 to interact with the application.
+Now visit http://localhost:5000 to interact with the application.
