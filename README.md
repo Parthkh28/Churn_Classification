@@ -19,7 +19,7 @@
 The Report is already uploaded in .pdf format during submission
 
 ## This Flask app allows users to submit input requests either through an API or a web application form.
-
+https://github.com/Parthkh28/Churn_Classification/assets/80260929/db298d92-b659-4183-a416-b1a58088c1b7
 ## Docker Deployment
 The application and associated files are containerized using Docker, which ensures that it runs consistently across different environments. Docker packages up the application with all of the parts it needs, including the libraries and other dependencies, and ships it all out as one package.
 ### Build Docker Image
@@ -41,3 +41,7 @@ $ docker run --name container  -d -p 5000:5000 churn_prediction
 In the above example, we are running a docker container with the name my-container in detached mode and mapping port 5000 of the host to port 5000 of the container. The image we are using is churn_prediction.
 
 Now visit http://localhost:5000 to interact with the application.
+
+
+
+
