@@ -1,0 +1,8 @@
+Flask
+pandas
+pickle-mixin
+tensorflow
+xgboost==1.7.6      
+numpy
+scikit-learn==1.2.2
+scipy
