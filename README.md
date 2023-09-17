@@ -3,8 +3,7 @@
 ```
 ├── enocders_and_scalers        >Stores the encoders and scalers applied on features during training in pickle format
 ├── templates   
-│            ├──index.html      >HTML file
-├── .gitattributes             > to track the  large saved  model files using git-lfs
+│            ├──index.html      >HTML file             > to track the  large saved  model files using git-lfs
 ├── app.py                     >flask  application main file
 ├── dockerfile                 >dockerFile used to automate the process of building a Docker image
 ├── news_classification.ipynb  >jupyter notebook for churn prediction
