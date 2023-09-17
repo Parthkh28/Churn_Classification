@@ -13,7 +13,7 @@
 └── requirements.txt           > Stores the information about all the libraries, modules, and packages in itself that are used while developing the project
 ```
 
-##### Link to Kaggle Notebook
+##### [Link to Kaggle Notebook] (https://www.kaggle.com/code/parthkharbanda/churn-classification/notebook)
 
 
 The Report is already uploaded in .pdf format during submission
@@ -38,6 +38,6 @@ Create a container from the image.
 ```
 $ docker run --name container  -d -p 5000:5000 churn_prediction
 ```
-In the above example, we are running a docker container with the name my-container in detached mode and mapping port 8000 of the host to port 8000 of the container. The image we are using is news_classification.
+In the above example, we are running a docker container with the name my-container in detached mode and mapping port 5000 of the host to port 5000 of the container. The image we are using is churn_prediction.
 
 Now visit http://localhost:5000 to interact with the application.
